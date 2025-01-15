@@ -1,0 +1,53 @@
+.hero {
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 0 190px;
+}
+.hero > div > img {
+  margin-top: 50px;
+}
+.hero-text > h3 {
+  color: rgb(39, 39, 39);
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 1.5%;
+  text-align: left;
+}
+.pri-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 25px 0;
+}
+.pri-btn {
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  color: white;
+
+  border: none;
+}
+.hero-text > button {
+  padding: 20px 43px;
+}
+@media screen and (max-width: 576px) {
+  .hero {
+    flex-wrap: wrap;
+    font-size: 40px;
+    height: auto;
+    line-height: 48px;
+  }
+  .hero > div {
+    flex: 1;
+  }
+  .hero > div > img {
+    width: 450px;
+    height: 570px;
+  }
+}
