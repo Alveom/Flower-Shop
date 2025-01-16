@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "lato", "Courier New", Courier, monospace;
+}
+
 .hero {
   background: rgba(229, 84, 115, 0.1);
   display: flex;
@@ -36,18 +42,22 @@
 .hero-text > button {
   padding: 20px 43px;
 }
+
 @media screen and (max-width: 576px) {
   .hero {
     flex-wrap: wrap;
     font-size: 40px;
     height: auto;
     line-height: 48px;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
   }
   .hero > div {
     flex: 1;
   }
   .hero > div > img {
-    width: 450px;
+    width: 410px;
     height: 570px;
   }
 }
